@@ -3,7 +3,6 @@ import axios from 'axios';
 import * as S from './styled';
 import Logo from '../../assets/logo.png'
 import { useHistory } from 'react-router-dom';
-import Repositories from '../Repositories';
 
 export default function App() {
   const history = useHistory();
